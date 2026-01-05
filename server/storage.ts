@@ -7,7 +7,7 @@ import {
   type InsertInventory,
   type Order,
   type InsertOrder,
-} from "@shared/schema";
+} from "../shared/schema.js";
 import { randomUUID } from "crypto";
 
 export interface IStorage {

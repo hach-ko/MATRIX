@@ -6,7 +6,7 @@ import {
   insertCompanySchema,
   insertInventorySchema,
   insertOrderSchema,
-} from "@shared/schema";
+} from "../shared/schema.js";
 import { z } from "zod";
 import { fromZodError } from "zod-validation-error";
 

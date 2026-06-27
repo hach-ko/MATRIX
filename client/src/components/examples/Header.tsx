@@ -4,7 +4,7 @@ import { ThemeProvider } from "../ThemeProvider";
 export default function HeaderExample() {
   return (
     <ThemeProvider>
-      <Header cartCount={3} onMenuClick={() => console.log("Menu clicked")} />
+      <Header cartCount={3} />
     </ThemeProvider>
   );
 }
